@@ -5,7 +5,6 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class TxtSCV {
-    // txt文本的转换
     public static void main(String[] args) {
         List<String> resultList = readTxtMML();
         outFileCSV(resultList);
